@@ -2,7 +2,7 @@ import { Fragment } from "react"
 
 import { loadCV } from "@/lib/cv"
 import type { Entry, SkillGroup } from "@/lib/cv"
-import { Inline, PrintHref } from "@/lib/cv/markdown"
+import { Inline } from "@/lib/cv/markdown"
 import { bareUrl, cn } from "@/lib/utils"
 
 import styles from "./cv.module.css"
@@ -122,17 +122,13 @@ function EntryItem({ entry }: { entry: Entry }) {
       </div>
       {(org || location) && (
         <p className="mt-1 text-sm text-muted-foreground">
-          {org &&
-            (url ? (
-              <>
-                <a href={url} className={LINK} target="_blank" rel="noreferrer">
-                  {org}
-                </a>
-                <PrintHref url={url} />
-              </>
-            ) : (
-              org
-            ))}
+          {org}
+          {org && url && <Dot />}
+          {org && url && (
+            <a href={url} className={LINK} target="_blank" rel="noreferrer">
+              {bareUrl(url)}
+            </a>
+          )}
           {org && location && <Dot />}
           {location}
         </p>
