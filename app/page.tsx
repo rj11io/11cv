@@ -235,14 +235,17 @@ export default function Page() {
               ))}
             </p>
           )}
-          <div className="mt-8 sm:absolute sm:top-1 sm:right-0 sm:mt-0 print:hidden">
+          <div className="mt-8 w-fit text-center sm:absolute sm:top-1 sm:right-0 sm:mt-0 print:hidden">
             <PrintButton />
+            <p className="mt-2 font-mono text-[10px]/none text-muted-foreground/50">
+              Press &quot;D&quot; for dark mode
+            </p>
           </div>
         </header>
 
         <main className="mt-12 space-y-12 print:mt-8 print:space-y-7">
           {profile.summary.length > 0 && (
-            <Section label="Profile">
+            <Section label="About me">
               <div className="max-w-prose space-y-4">
                 {profile.summary.map((text, i) => (
                   <p
@@ -253,6 +256,12 @@ export default function Page() {
                   </p>
                 ))}
               </div>
+            </Section>
+          )}
+
+          {skills.length > 0 && (
+            <Section label="Skills">
+              <SkillGroups groups={skills} />
             </Section>
           )}
 
@@ -283,12 +292,6 @@ export default function Page() {
                   <EntryItem key={i} entry={entry} />
                 ))}
               </div>
-            </Section>
-          )}
-
-          {skills.length > 0 && (
-            <Section label="Skills">
-              <SkillGroups groups={skills} />
             </Section>
           )}
         </main>
