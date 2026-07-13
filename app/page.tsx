@@ -3,7 +3,7 @@ import { Fragment } from "react"
 import { loadCV } from "@/lib/cv"
 import type { Entry, SkillGroup } from "@/lib/cv"
 import { Inline, PrintHref } from "@/lib/cv/markdown"
-import { cn } from "@/lib/utils"
+import { bareUrl, cn } from "@/lib/utils"
 
 import styles from "./cv.module.css"
 import { PrintButton } from "./print-button"
@@ -98,21 +98,20 @@ function EntryItem({ entry }: { entry: Entry }) {
   const org = entry.meta.company ?? entry.meta.school
   const url = entry.meta.url
   const location = entry.meta.location
-  // With no org line to carry the link (projects), the heading itself links.
-  const headingLinks = Boolean(url && !org)
+  // The bare URL is the link. With no org line to carry it (projects), it
+  // sits inline beside the heading.
+  const urlInHeading = Boolean(url && !org)
   return (
     <article className="break-inside-avoid">
       <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-0.5">
         <h3 className={cn(SERIF, "text-lg/6 font-medium text-balance")}>
-          {headingLinks ? (
-            <>
+          {entry.heading}
+          {urlInHeading && (
+            <span className="ml-2.5 font-sans text-sm font-normal text-muted-foreground">
               <a href={url} className={LINK} target="_blank" rel="noreferrer">
-                {entry.heading}
+                {bareUrl(url!)}
               </a>
-              <PrintHref url={url!} />
-            </>
-          ) : (
-            entry.heading
+            </span>
           )}
         </h3>
         {entry.meta.period && (
