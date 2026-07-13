@@ -12,6 +12,32 @@ const SERIF = "font-[family-name:var(--font-serif-cv)]"
 const LINK =
   "underline decoration-foreground/25 underline-offset-[3px] transition-colors hover:decoration-foreground print:decoration-foreground/40"
 
+const PERSON_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Ricardo Jorge",
+  alternateName: "RJ",
+  url: "https://www.rj11.io",
+  jobTitle: "AI Product Engineer",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Lisbon",
+    addressCountry: "PT",
+  },
+  sameAs: [
+    "https://github.com/rj11io",
+    "https://www.linkedin.com/in/rj11io",
+  ],
+  knowsAbout: [
+    "AI product engineering",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "AI agents",
+    "Data visualisation",
+  ],
+}
+
 type Contact = { label: string; href?: string }
 
 // Turn the free-form frontmatter meta (location, email, website, handles,
@@ -194,6 +220,12 @@ export default function Page() {
 
   return (
     <div className={cn(styles.page, "bg-background text-foreground")}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(PERSON_JSON_LD).replace(/</g, "\\u003c"),
+        }}
+      />
       {/* Print fixes that must reach outside this tree: hide the Next.js
           dev-tools overlay, and keep the document canvas white so no dark
           edge peeks around the page in dark mode. */}
