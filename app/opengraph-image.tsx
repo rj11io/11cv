@@ -165,7 +165,7 @@ export default function OpenGraphImage() {
                 letterSpacing: 1.2,
               }}
             >
-              rj11.io
+              cv.rj11.io
             </div>
           </div>
         </div>

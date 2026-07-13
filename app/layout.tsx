@@ -26,12 +26,12 @@ const serif = Newsreader({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.rj11.io"),
+  metadataBase: new URL("https://cv.rj11.io"),
   title: "Ricardo Jorge: AI Product Engineer CV",
   description:
     "AI Product Engineer building production AI systems, data-driven products, and polished TypeScript experiences.",
   applicationName: "Ricardo Jorge — CV",
-  authors: [{ name: "Ricardo Jorge", url: "https://www.rj11.io" }],
+  authors: [{ name: "Ricardo Jorge", url: "https://cv.rj11.io" }],
   creator: "Ricardo Jorge",
   publisher: "Ricardo Jorge",
   keywords: [

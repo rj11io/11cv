@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.rj11.io/sitemap.xml",
-    host: "https://www.rj11.io",
+    sitemap: "https://cv.rj11.io/sitemap.xml",
+    host: "https://cv.rj11.io",
   }
 }
