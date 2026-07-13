@@ -265,20 +265,20 @@ export default function Page() {
             </Section>
           )}
 
-          {experience.length > 0 && (
-            <Section label="Experience">
+          {projects.length > 0 && (
+            <Section label="Projects">
               <div className="space-y-9 print:space-y-6">
-                {experience.map((entry, i) => (
+                {projects.map((entry, i) => (
                   <EntryItem key={i} entry={entry} />
                 ))}
               </div>
             </Section>
           )}
 
-          {projects.length > 0 && (
-            <Section label="Projects">
+          {experience.length > 0 && (
+            <Section label="Experience">
               <div className="space-y-9 print:space-y-6">
-                {projects.map((entry, i) => (
+                {experience.map((entry, i) => (
                   <EntryItem key={i} entry={entry} />
                 ))}
               </div>
