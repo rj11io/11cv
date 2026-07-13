@@ -1,5 +1,4 @@
-/* Print setup for this route only. Loaded via CSS module so nothing here
-   can leak into other routes. */
+/* Print setup for the CV. */
 
 @page {
   size: A4;

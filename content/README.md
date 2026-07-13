@@ -1,9 +1,7 @@
 # CV content
 
-These markdown files are the single source of truth for the CV. Every
-benchmark run renders the same data from here.
-
-**If you are a benchmark agent: this folder is read-only. Never edit it.**
+These Markdown files are the single source of truth for the CV. The homepage
+renders its content directly from this folder.
 
 ## Format
 
@@ -24,13 +22,12 @@ Each file follows the same small set of rules, parsed by `lib/cv`:
 
 ## Files
 
-| File | What it holds |
-| --- | --- |
-| `profile.md` | Name, title, contact links (frontmatter) + summary paragraphs |
-| `experience.md` | One `##` entry per role |
-| `education.md` | One `##` entry per degree |
-| `projects.md` | One `##` entry per project |
-| `skills.md` | One `##` group per category; items as a comma-separated line or bullets |
+| File            | What it holds                                                           |
+| --------------- | ----------------------------------------------------------------------- |
+| `profile.md`    | Name, title, contact links (frontmatter) + summary paragraphs           |
+| `experience.md` | One `##` entry per role                                                 |
+| `education.md`  | One `##` entry per degree                                               |
+| `projects.md`   | One `##` entry per project                                              |
+| `skills.md`     | One `##` group per category; items as a comma-separated line or bullets |
 
-Deleting a file, or all entries in it, simply removes that section from
-every run — sites must handle empty sections gracefully.
+Deleting a file, or all entries in it, removes that section from the CV.

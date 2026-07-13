@@ -1,26 +1,61 @@
-import { Geist_Mono, Inter } from "next/font/google"
+import type { Metadata } from "next"
+import { Geist_Mono, Inter, Newsreader } from "next/font/google"
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
-import { cn } from "@/lib/utils";
+import { loadCV } from "@/lib/cv"
+import { cn } from "@/lib/utils"
 
-const inter = Inter({subsets:['latin'],variable:'--font-sans'})
-
-const fontMono = Geist_Mono({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-mono",
+  display: "swap",
+  variable: "--font-inter",
 })
+
+const mono = Geist_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-geist-mono",
+})
+
+const serif = Newsreader({
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--font-serif-cv",
+})
+
+function plainText(text: string) {
+  return text
+    .replace(/\[([^\]]+)\]\([^)\s]+\)/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+}
+
+export function generateMetadata(): Metadata {
+  const { profile } = loadCV()
+  const identity = [profile.name, profile.title].filter(Boolean).join(": ")
+
+  return {
+    title: identity ? `${identity} CV` : "CV",
+    description: profile.summary[0] ? plainText(profile.summary[0]) : undefined,
+  }
+}
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", fontMono.variable, "font-sans", inter.variable)}
+      className={cn(
+        "font-sans antialiased",
+        inter.variable,
+        mono.variable,
+        serif.variable
+      )}
     >
       <body>
         <ThemeProvider>{children}</ThemeProvider>
