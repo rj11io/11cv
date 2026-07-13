@@ -7,7 +7,7 @@ period: 2025 - Present
 Personal brand for B2B freelancing
 
 ## 11ai
-url: https://github.com/rj11io/11ai/tree/main
+url: https://github.com/rj11io/11ai
 period: 2026 - Present
 
 Open source AI skills, plugins, and workflows

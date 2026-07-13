@@ -3,6 +3,20 @@
 
 import * as React from "react"
 
+import { bareUrl } from "@/lib/utils"
+
+// A printed page can't be clicked, so every link whose label hides its
+// destination gets the bare URL appended — visible only in print, faded so
+// it reads as a footnote to the label rather than part of the sentence.
+export function PrintHref({ url }: { url: string }) {
+  return (
+    <span className="hidden font-mono text-[0.65em] font-normal text-muted-foreground/60 not-italic [overflow-wrap:anywhere] print:inline">
+      {" "}
+      {bareUrl(url)}
+    </span>
+  )
+}
+
 const TOKEN =
   /(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|\[[^\]]+\]\([^)\s]+\))/g
 
@@ -32,15 +46,17 @@ export function Inline({
         const link = part.match(LINK)
         if (link) {
           return (
-            <a
-              key={i}
-              href={link[2]}
-              className={linkClassName}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {link[1]}
-            </a>
+            <React.Fragment key={i}>
+              <a
+                href={link[2]}
+                className={linkClassName}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {link[1]}
+              </a>
+              <PrintHref url={link[2]} />
+            </React.Fragment>
           )
         }
         return <React.Fragment key={i}>{part}</React.Fragment>

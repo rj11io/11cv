@@ -2,7 +2,7 @@ import { Fragment } from "react"
 
 import { loadCV } from "@/lib/cv"
 import type { Entry, SkillGroup } from "@/lib/cv"
-import { Inline } from "@/lib/cv/markdown"
+import { Inline, PrintHref } from "@/lib/cv/markdown"
 import { cn } from "@/lib/utils"
 
 import styles from "./cv.module.css"
@@ -105,9 +105,12 @@ function EntryItem({ entry }: { entry: Entry }) {
       <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-0.5">
         <h3 className={cn(SERIF, "text-lg/6 font-medium text-balance")}>
           {headingLinks ? (
-            <a href={url} className={LINK} target="_blank" rel="noreferrer">
-              {entry.heading}
-            </a>
+            <>
+              <a href={url} className={LINK} target="_blank" rel="noreferrer">
+                {entry.heading}
+              </a>
+              <PrintHref url={url!} />
+            </>
           ) : (
             entry.heading
           )}
@@ -122,9 +125,12 @@ function EntryItem({ entry }: { entry: Entry }) {
         <p className="mt-1 text-sm text-muted-foreground">
           {org &&
             (url ? (
-              <a href={url} className={LINK} target="_blank" rel="noreferrer">
-                {org}
-              </a>
+              <>
+                <a href={url} className={LINK} target="_blank" rel="noreferrer">
+                  {org}
+                </a>
+                <PrintHref url={url} />
+              </>
             ) : (
               org
             ))}
