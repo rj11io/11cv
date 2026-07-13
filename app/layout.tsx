@@ -4,7 +4,6 @@ import { Analytics } from "@vercel/analytics/next"
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
-import { loadCV } from "@/lib/cv"
 import { cn } from "@/lib/utils"
 
 const inter = Inter({
@@ -26,22 +25,10 @@ const serif = Newsreader({
   variable: "--font-serif-cv",
 })
 
-function plainText(text: string) {
-  return text
-    .replace(/\[([^\]]+)\]\([^)\s]+\)/g, "$1")
-    .replace(/\*\*([^*]+)\*\*/g, "$1")
-    .replace(/\*([^*]+)\*/g, "$1")
-    .replace(/`([^`]+)`/g, "$1")
-}
-
-export function generateMetadata(): Metadata {
-  const { profile } = loadCV()
-  const identity = [profile.name, profile.title].filter(Boolean).join(": ")
-
-  return {
-    title: identity ? `${identity} CV` : "CV",
-    description: profile.summary[0] ? plainText(profile.summary[0]) : undefined,
-  }
+export const metadata: Metadata = {
+  title: "Ricardo Jorge: AI Product Engineer CV",
+  description:
+    "AI Product Engineer specializing in TypeScript, React, Next.js, AI systems, and data visualisation.",
 }
 
 export default function RootLayout({
