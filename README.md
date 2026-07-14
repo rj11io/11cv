@@ -113,3 +113,5 @@ npm run typecheck
 npm run lint
 npm run build
 ```
+
+Deployed at https://cv.rj11.io/
