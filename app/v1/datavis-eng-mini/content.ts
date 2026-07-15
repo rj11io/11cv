@@ -11,14 +11,14 @@ export const role: MiniRole = {
     "One-page CV focused on the Data Visualisation Engineer role: dashboards, custom vis components, and data explorers.",
   pdfPages: 1,
   summary: [
-    "Data Visualisation Engineer with a decade of professional TypeScript experience, on React since 2016 and Next.js since 2018. Most of my experience is in cybersecurity, building dashboards and proprietary data explorers, where I learned what separates a polished product from a prototype. The track record runs from d3 dashboards in 2015 to threat-intelligence widgets, iGaming dashboards, and today's AI-powered analytics.",
+    "Data Visualisation Engineer with a decade of professional TypeScript experience, building on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, and pipelines from day one and shipping product features end to end, then growing the team: hiring, interviewing, onboarding, and writing the playbooks that let new engineers integrate seamlessly. Most of that experience is in cybersecurity, building dashboards and proprietary data explorers, that's where I learned what separates a polished product from a prototype and found my passion for data-driven products and visualisations.",
   ],
   skills: [
     {
       name: "Data & Visualisation",
       items: [
         "Dashboards",
-        "Data Visualisation (d3, Recharts, Nivo)",
+        "Data Visualisation",
         "Web Scraping",
         "Data Enrichment",
       ],
@@ -40,7 +40,6 @@ export const role: MiniRole = {
       items: [
         "Tailwind CSS",
         "shadcn/ui",
-        "Material-UI",
         "Design Systems",
         "Storybook",
         "Refactoring UI",

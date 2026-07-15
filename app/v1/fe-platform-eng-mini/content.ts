@@ -11,7 +11,7 @@ export const role: MiniRole = {
     "One-page CV focused on the Frontend Platform role: architecture, tooling, design systems, and developer experience.",
   pdfPages: 1,
   summary: [
-    "Frontend Platform Engineer with a decade of professional TypeScript experience, on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning the architecture, tooling, component library, infrastructure, and pipelines from day one, then growing the team: hiring, onboarding, and writing the playbooks that let new engineers integrate seamlessly. That track record runs through monorepos, Storybooks and design systems, micro frontends, CI/CD migrations, and end-to-end test suites.",
+    "Frontend Platform Engineer with a decade of professional TypeScript experience, building on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, and pipelines from day one and shipping product features end to end, then growing the team: hiring, interviewing, onboarding, and writing the playbooks that let new engineers integrate seamlessly. Most of that experience is in cybersecurity, building dashboards and proprietary data explorers, that's where I learned what separates a polished product from a prototype and found my passion for data-driven products and visualisations.",
   ],
   skills: [
     {
