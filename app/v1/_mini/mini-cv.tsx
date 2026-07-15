@@ -1,7 +1,7 @@
 // Compact CV renderer shared by every mini variant. Same design language as
 // max, but tuned to a fixed print budget (role.pdfPages): two-page minis get
-// comfortable print spacing, one-page minis a denser print layout — smaller
-// type, tighter gaps, slimmer header. Screen layout is identical either way.
+// comfortable print spacing, one-page minis a denser print layout (smaller
+// type, tighter gaps, slimmer header). Screen layout is identical either way.
 
 import type { Metadata } from "next"
 import { Fragment } from "react"
@@ -97,7 +97,7 @@ function EntryItem({ entry, dense }: { entry: MiniEntry; dense: boolean }) {
         >
           {entry.role}
           <span className="font-normal text-muted-foreground italic">
-            {" — "}
+            {" · "}
             {entry.url ? (
               <a
                 href={entry.url}

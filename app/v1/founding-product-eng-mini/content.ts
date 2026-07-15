@@ -11,7 +11,7 @@ export const role: MiniRole = {
     "One-page CV focused on the Founding Product Engineer role: zero-to-one builds, first-hire ownership, and startup breadth.",
   pdfPages: 1,
   summary: [
-    "Founding Product Engineer with a decade of professional TypeScript experience — on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, infrastructure, and pipelines from day one, then growing the team and writing its playbooks. I've worn every hat a startup has, including co-founding one and running its business side. Point me at a target and I'll figure out how to hit it on my own.",
+    "Founding Product Engineer with a decade of professional TypeScript experience, on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, infrastructure, and pipelines from day one, then growing the team and writing its playbooks. I've worn every hat a startup has, including co-founding one and running its business side. Point me at a target and I'll figure out how to hit it on my own.",
   ],
   skills: [
     {
@@ -50,7 +50,7 @@ export const role: MiniRole = {
     {
       role: "AI Product Engineer",
       company: "rj11io",
-      period: "Mar 2025 — Present",
+      period: "Mar 2025 - Present",
       url: "https://www.rj11.io",
       highlights: [
         "Hands-on AI product engineering for multiple early-stage startups, building projects from the ground up",
@@ -60,7 +60,7 @@ export const role: MiniRole = {
     {
       role: "Product / Datavis Engineer",
       company: "Hunt Intelligence, Inc.",
-      period: "Apr 2024 — Mar 2025",
+      period: "Apr 2024 - Mar 2025",
       url: "https://hunt.io/",
       highlights: [
         "Built the modern TypeScript codebase from the ground up: latest Next.js and shadcn/ui, Vercel environments, Playwright tests, CI/CD on GitHub Actions",
@@ -70,7 +70,7 @@ export const role: MiniRole = {
     {
       role: "Frontend Lead",
       company: "BinaryEdge · Coalition, Inc.",
-      period: "Feb 2020 — Oct 2021",
+      period: "Feb 2020 - Oct 2021",
       url: "https://www.coalitioninc.com/",
       highlights: [
         "Started as a solo frontend engineer and grew a team focused on customer-facing security apps and internal tools",
@@ -80,7 +80,7 @@ export const role: MiniRole = {
     {
       role: "Fullstack Engineer, Co-Founder",
       company: "Glaiveware",
-      period: "Mar 2018 — Dec 2019",
+      period: "Mar 2018 - Dec 2019",
       highlights: [
         "Co-founded and ran a business creating bespoke web apps above market standards",
         "Beyond code: SEO & SEM, branding & design, marketing & advertising, copywriting; infrastructure on AWS, Ubuntu, and nginx",
@@ -88,7 +88,7 @@ export const role: MiniRole = {
     },
   ],
   earlierRoles:
-    "Also: Senior Frontend Engineer → Team Lead at OMEGA Systems (2023 — 2024); Senior Frontend Engineer at Phantasma Chain (2022 — 2023); earlier roles at Sycret.ink, the American Heart Association, and NextBitt (2015 — 2017).",
+    "Also: Senior Frontend Engineer → Team Lead at OMEGA Systems (2023 - 2024); Senior Frontend Engineer at Phantasma Chain (2022 - 2023); earlier roles at Sycret.ink, the American Heart Association, and NextBitt (2015 - 2017).",
   projects: [
     {
       name: "11io",

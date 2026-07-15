@@ -38,7 +38,7 @@ export type MiniRole = {
    * layout (smaller type, tighter spacing); screen layout is unaffected.
    */
   pdfPages: 1 | 2
-  /** Short intro paragraphs — aim for two. May contain inline markdown. */
+  /** Short intro paragraphs, ideally one or two. May contain inline markdown. */
   summary: string[]
   /** Skill groups, trimmed and ordered for the role. */
   skills: MiniSkillGroup[]

@@ -2,7 +2,7 @@
 
 ## AI Product Engineer
 company: rj11io
-period: Mar 2025 — Present
+period: Mar 2025 - Present
 location: B2B · Remote
 url: https://www.rj11.io
 
@@ -20,7 +20,7 @@ Hands-on AI product engineering for multiple early-stage startups, building proj
 
 ## Product / Datavis Engineer
 company: Hunt Intelligence, Inc.
-period: Apr 2024 — Mar 2025
+period: Apr 2024 - Mar 2025
 location: B2B · Remote
 url: https://hunt.io/
 
@@ -39,7 +39,7 @@ threat-intelligence product:
 
 ## Senior Frontend Engineer → Team Lead
 company: OMEGA Systems
-period: Jun 2023 — Apr 2024
+period: Jun 2023 - Apr 2024
 location: Remote
 url: https://www.omegasys.eu/
 
@@ -60,7 +60,7 @@ team.
 
 ## Senior Frontend Engineer
 company: Phantasma Chain
-period: Jan 2022 — May 2023
+period: Jan 2022 - May 2023
 location: Remote
 url: https://phantasma.info/
 
@@ -75,7 +75,7 @@ url: https://phantasma.info/
 
 ## Frontend Lead
 company: BinaryEdge · Coalition, Inc.
-period: Feb 2020 — Oct 2021
+period: Feb 2020 - Oct 2021
 location: Remote
 url: https://www.coalitioninc.com/
 
@@ -99,7 +99,7 @@ concept of micro frontends.
 
 ## Fullstack Engineer, Co-Founder
 company: Glaiveware
-period: Mar 2018 — Dec 2019
+period: Mar 2018 - Dec 2019
 location: Lisbon, Portugal · Remote
 
 A great learning experience that taught me how to manage projects and run
@@ -115,7 +115,7 @@ a business creating bespoke web apps above market standards.
 
 ## React Native Developer
 company: Sycret.ink
-period: Jan 2017 — Dec 2017
+period: Jan 2017 - Dec 2017
 location: Neuchâtel, Switzerland · Remote
 
 Mobile chat app with end-to-end encryption in a serverless environment,
@@ -127,7 +127,7 @@ encryption protocols and mobile app deployment.
 
 ## Full Stack JavaScript Developer
 company: American Heart Association
-period: Sep 2016 — Nov 2016
+period: Sep 2016 - Nov 2016
 location: Remote
 
 Built an admin dashboard for the AHA's Kinect integration: interfaced
@@ -138,7 +138,7 @@ first web app as a full-stack JavaScript developer, using React and Node.
 
 ## Frontend Developer
 company: NextBitt
-period: Oct 2015 — Jul 2016
+period: Oct 2015 - Jul 2016
 location: Lisbon, Portugal
 
 Created analytics dashboards and reporting, auditing, and management
@@ -150,7 +150,7 @@ tools for NextBitt's asset & facilities management software.
 
 ## Java Developer
 company: Science4you
-period: Jan 2015 — Mar 2015
+period: Jan 2015 - Mar 2015
 location: Lisbon, Portugal
 
 Internship. Built a management system for the online store using Java and

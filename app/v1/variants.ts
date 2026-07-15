@@ -33,7 +33,7 @@ export const VARIANTS: Variant[] = [
     slug: "max",
     name: "Max",
     title: "AI Product Engineer",
-    description: "The full CV — every role, project, and detail.",
+    description: "The full CV: every role, project, and detail.",
   },
   ...MINI_ROLES.map(({ slug, name, title, description }) => ({
     slug,

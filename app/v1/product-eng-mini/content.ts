@@ -11,7 +11,7 @@ export const role: MiniRole = {
     "One-page CV focused on the Product Engineer role: shipping products end to end.",
   pdfPages: 1,
   summary: [
-    "Product Engineer with a decade of professional TypeScript experience — building on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, and pipelines from day one and shipping product features end to end. I operate as a self-guided missile: point me at a target and I'll figure out how to hit it on my own. Lately that means AI products: data extraction, analytics, chats, and full agent harnesses.",
+    "Product Engineer with a decade of professional TypeScript experience, building on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, and pipelines from day one and shipping product features end to end. I operate as a self-guided missile: point me at a target and I'll figure out how to hit it on my own. Lately that means AI products: data extraction, analytics, chats, and full agent harnesses.",
   ],
   skills: [
     {
@@ -50,7 +50,7 @@ export const role: MiniRole = {
     {
       role: "AI Product Engineer",
       company: "rj11io",
-      period: "Mar 2025 — Present",
+      period: "Mar 2025 - Present",
       url: "https://www.rj11.io",
       highlights: [
         "Hands-on AI product engineering for early-stage startups: AI data extraction from PDFs, AI SEO analytics, a GenAI dermatopathology portal, and AI chat experiences",
@@ -60,7 +60,7 @@ export const role: MiniRole = {
     {
       role: "Product / Datavis Engineer",
       company: "Hunt Intelligence, Inc.",
-      period: "Apr 2024 — Mar 2025",
+      period: "Apr 2024 - Mar 2025",
       url: "https://hunt.io/",
       highlights: [
         "Built core product modules of a threat-intelligence platform, AttackCapture™ and HuntSQL™, plus custom data visualisations like the IP History Widget",
@@ -70,7 +70,7 @@ export const role: MiniRole = {
     {
       role: "Senior Frontend Engineer → Team Lead",
       company: "OMEGA Systems",
-      period: "Jun 2023 — Apr 2024",
+      period: "Jun 2023 - Apr 2024",
       url: "https://www.omegasys.eu/",
       highlights: [
         "Built the next generation of OMEGA's iGaming platform management system (CORE5); promoted to lead the frontend team",
@@ -80,7 +80,7 @@ export const role: MiniRole = {
     {
       role: "Frontend Lead",
       company: "BinaryEdge · Coalition, Inc.",
-      period: "Feb 2020 — Oct 2021",
+      period: "Feb 2020 - Oct 2021",
       url: "https://www.coalitioninc.com/",
       highlights: [
         "Built Attack Surface Monitoring on the BinaryEdge Portal, later integrated into Coalition Explorer and Coalition Control",
@@ -89,7 +89,7 @@ export const role: MiniRole = {
     },
   ],
   earlierRoles:
-    "Earlier: Senior Frontend Engineer at Phantasma Chain (2022 — 2023); co-founder at Glaiveware (2018 — 2019); roles at Sycret.ink, the American Heart Association, and NextBitt (2015 — 2017).",
+    "Earlier: Senior Frontend Engineer at Phantasma Chain (2022 - 2023); co-founder at Glaiveware (2018 - 2019); roles at Sycret.ink, the American Heart Association, and NextBitt (2015 - 2017).",
   projects: [
     {
       name: "11io",

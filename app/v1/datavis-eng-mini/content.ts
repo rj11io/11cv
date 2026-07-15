@@ -11,7 +11,7 @@ export const role: MiniRole = {
     "One-page CV focused on the Data Visualisation Engineer role: dashboards, custom vis components, and data explorers.",
   pdfPages: 1,
   summary: [
-    "Data Visualisation Engineer with a decade of professional TypeScript experience — on React since 2016 and Next.js since 2018. Most of my experience is in cybersecurity, building dashboards and proprietary data explorers, where I learned what separates a polished product from a prototype. The visualisation track record runs from Google Charts, dygraphs, and d3 dashboards in 2015 to threat-intelligence widgets, iGaming dashboards, and today's AI-powered analytics.",
+    "Data Visualisation Engineer with a decade of professional TypeScript experience, on React since 2016 and Next.js since 2018. Most of my experience is in cybersecurity, building dashboards and proprietary data explorers, where I learned what separates a polished product from a prototype. The visualisation track record runs from Google Charts, dygraphs, and d3 dashboards in 2015 to threat-intelligence widgets, iGaming dashboards, and today's AI-powered analytics.",
   ],
   skills: [
     {
@@ -51,7 +51,7 @@ export const role: MiniRole = {
     {
       role: "AI Product Engineer",
       company: "rj11io",
-      period: "Mar 2025 — Present",
+      period: "Mar 2025 - Present",
       url: "https://www.rj11.io",
       highlights: [
         "Multiple cybersecurity dashboards and proprietary data explorers for early-stage startups",
@@ -61,17 +61,17 @@ export const role: MiniRole = {
     {
       role: "Product / Datavis Engineer",
       company: "Hunt Intelligence, Inc.",
-      period: "Apr 2024 — Mar 2025",
+      period: "Apr 2024 - Mar 2025",
       url: "https://hunt.io/",
       highlights: [
-        "Went deep on my specialty: data visualisation for a threat-intelligence product — custom components like the IP History Widget",
+        "Went deep on my specialty: data visualisation for a threat-intelligence product, with custom components like the IP History Widget",
         "Built core product modules AttackCapture™ and HuntSQL™ with the latest Next.js and shadcn/ui",
       ],
     },
     {
       role: "Senior Frontend Engineer → Team Lead",
       company: "OMEGA Systems",
-      period: "Jun 2023 — Apr 2024",
+      period: "Jun 2023 - Apr 2024",
       url: "https://www.omegasys.eu/",
       highlights: [
         "Data visualisation for the Main and Social dashboards of the CORE5 iGaming platform",
@@ -81,7 +81,7 @@ export const role: MiniRole = {
     {
       role: "Frontend Lead",
       company: "BinaryEdge · Coalition, Inc.",
-      period: "Feb 2020 — Oct 2021",
+      period: "Feb 2020 - Oct 2021",
       url: "https://www.coalitioninc.com/",
       highlights: [
         "Tech Lead for the Customer Security data visualisations and the Coalition Storybook; introduced Nivo to the stack",
@@ -91,14 +91,14 @@ export const role: MiniRole = {
     {
       role: "Frontend Developer",
       company: "NextBitt",
-      period: "Oct 2015 — Jul 2016",
+      period: "Oct 2015 - Jul 2016",
       highlights: [
-        "Analytics dashboards and reporting, auditing, and management tools for asset & facilities management software — heavy data visualisation with Google Charts, dygraphs, Chart.js, d3.js, and C3.js",
+        "Analytics dashboards and reporting, auditing, and management tools for asset & facilities management software, with heavy data visualisation using Google Charts, dygraphs, Chart.js, d3.js, and C3.js",
       ],
     },
   ],
   earlierRoles:
-    "Also: Senior Frontend Engineer at Phantasma Chain, building Phantasma Explorer (2022 — 2023); co-founder at Glaiveware (2018 — 2019); full-stack dashboard for the American Heart Association (2016).",
+    "Also: Senior Frontend Engineer at Phantasma Chain, building Phantasma Explorer (2022 - 2023); co-founder at Glaiveware (2018 - 2019); full-stack dashboard for the American Heart Association (2016).",
   projects: [
     {
       name: "11intel",

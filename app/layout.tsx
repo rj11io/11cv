@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   title: "Ricardo Jorge: AI Product Engineer CV",
   description:
     "AI Product Engineer building production AI systems, data-driven products, and polished TypeScript experiences.",
-  applicationName: "Ricardo Jorge — CV",
+  applicationName: "Ricardo Jorge CV",
   authors: [{ name: "Ricardo Jorge", url: "https://cv.rj11.io" }],
   creator: "Ricardo Jorge",
   publisher: "Ricardo Jorge",

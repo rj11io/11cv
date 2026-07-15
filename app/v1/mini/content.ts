@@ -10,8 +10,8 @@ export const role: MiniRole = {
     "The compact CV: a decade of product engineering condensed to two pages.",
   pdfPages: 2,
   summary: [
-    "AI Product Engineer with a decade of professional TypeScript experience — building on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, component libraries, and pipelines from day one, then growing the team around them.",
-    "Most of my experience is in cybersecurity, building dashboards and proprietary data explorers — where I developed a passion for data-driven products. I've built with AI since the first releases of Copilot and ChatGPT, moving from prompt and context engineering to designing full agent harnesses. Today an automated fleet of AI agents maintains my personal projects.",
+    "AI Product Engineer with a decade of professional TypeScript experience, building on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, component libraries, and pipelines from day one, then growing the team around them.",
+    "Most of my experience is in cybersecurity, building dashboards and proprietary data explorers. That's where I developed a passion for data-driven products. I've built with AI since the first releases of Copilot and ChatGPT, moving from prompt and context engineering to designing full agent harnesses. Today an automated fleet of AI agents maintains my personal projects.",
   ],
   skills: [
     {
@@ -61,7 +61,7 @@ export const role: MiniRole = {
     {
       role: "AI Product Engineer",
       company: "rj11io",
-      period: "Mar 2025 — Present",
+      period: "Mar 2025 - Present",
       url: "https://www.rj11.io",
       highlights: [
         "Hands-on AI product engineering for multiple early-stage startups, building projects from the ground up",
@@ -72,7 +72,7 @@ export const role: MiniRole = {
     {
       role: "Product / Datavis Engineer",
       company: "Hunt Intelligence, Inc.",
-      period: "Apr 2024 — Mar 2025",
+      period: "Apr 2024 - Mar 2025",
       url: "https://hunt.io/",
       highlights: [
         "Went deep on my specialty: data visualisation for a threat-intelligence product, including custom components like the IP History Widget",
@@ -83,7 +83,7 @@ export const role: MiniRole = {
     {
       role: "Senior Frontend Engineer → Team Lead",
       company: "OMEGA Systems",
-      period: "Jun 2023 — Apr 2024",
+      period: "Jun 2023 - Apr 2024",
       url: "https://www.omegasys.eu/",
       highlights: [
         "Built the next generation of OMEGA's iGaming platform management system (CORE5) with TypeScript and React; promoted to lead the frontend team",
@@ -94,7 +94,7 @@ export const role: MiniRole = {
     {
       role: "Senior Frontend Engineer",
       company: "Phantasma Chain",
-      period: "Jan 2022 — May 2023",
+      period: "Jan 2022 - May 2023",
       url: "https://phantasma.info/",
       highlights: [
         "Built the frontend monorepo for all new tools and apps, the Phantasma UI Storybook, and Phantasma Explorer",
@@ -104,7 +104,7 @@ export const role: MiniRole = {
     {
       role: "Frontend Lead",
       company: "BinaryEdge · Coalition, Inc.",
-      period: "Feb 2020 — Oct 2021",
+      period: "Feb 2020 - Oct 2021",
       url: "https://www.coalitioninc.com/",
       highlights: [
         "Started as a solo frontend engineer and grew a team focused on customer-facing security apps and internal tools",
@@ -114,7 +114,7 @@ export const role: MiniRole = {
     },
   ],
   earlierRoles:
-    "Earlier: co-founder at Glaiveware, building bespoke web apps (2018 — 2019); React Native chat app with end-to-end encryption at Sycret.ink (2017); full-stack dashboard for the American Heart Association (2016); analytics dashboards at NextBitt (2015 — 2016).",
+    "Earlier: co-founder at Glaiveware, building bespoke web apps (2018 - 2019); React Native chat app with end-to-end encryption at Sycret.ink (2017); full-stack dashboard for the American Heart Association (2016); analytics dashboards at NextBitt (2015 - 2016).",
   projects: [
     {
       name: "11io",

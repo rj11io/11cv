@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
       // (307/308-free) so the default can move without browsers caching it.
       {
         source: "/",
-        destination: "/v1/max",
+        destination: "/v1",
         permanent: false,
       },
     ]

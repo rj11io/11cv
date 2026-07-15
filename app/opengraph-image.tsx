@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og"
 
 export const alt =
-  "Ricardo Jorge — AI Product Engineer focused on product engineering, AI systems, and data visualisation"
+  "Ricardo Jorge, AI Product Engineer focused on product engineering, AI systems, and data visualisation"
 
 export const size = {
   width: 1200,
