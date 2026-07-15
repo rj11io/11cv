@@ -4,7 +4,7 @@
 TypeScript, React.js, Next.js, AI SDK, Convex, Playwright, Vercel
 
 ## AI Engineering
-Agent Automations, Custom Agent Skills, Harness Engineering, Codex, Claude Code 
+Agent Automations, Custom Agent Skills, Harness Engineering, Codex, Claude Code, n8n
 
 ## UI & Design
 Tailwind CSS, shadcn/ui, Material-UI, Design Systems, Storybook, Refactoring UI

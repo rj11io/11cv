@@ -43,6 +43,7 @@ export const role: MiniRole = {
         "Harness Engineering",
         "Codex",
         "Claude Code",
+        "n8n"
       ],
     },
   ],

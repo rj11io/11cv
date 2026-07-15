@@ -15,7 +15,7 @@ Hands-on AI product engineering for multiple early-stage startups, building proj
 - Multiple Cybersecurity Dashboards
 - Multiple Proprietary Data Explorers
 - Multiple AI Chats / GPT Experiences
-- AI Smart Scrapping Agents
+- AI Smart Scrapping Agents and n8n Workflows
 - AI Agent Harnesses, Skills, and Automations
 
 ## Product / Datavis Engineer

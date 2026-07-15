@@ -54,7 +54,7 @@ export const role: MiniRole = {
       url: "https://www.rj11.io",
       highlights: [
         "Multiple cybersecurity dashboards and proprietary data explorers for early-stage startups",
-        "AI SEO analytics, AI data extraction from PDFs, and smart scraping agents feeding data-driven products",
+        "AI SEO analytics, AI data extraction from PDFs, and n8n workflow agents feeding data-driven products",
       ],
     },
     {
@@ -63,7 +63,7 @@ export const role: MiniRole = {
       period: "Apr 2024 - Mar 2025",
       url: "https://hunt.io/",
       highlights: [
-        "Went deep on my specialty: data visualisation for a threat-intelligence product, with custom components like the IP History Widget",
+        "Went deep on my specialty: data visualisation for a threat-intelligence product, with custom components like the IP History Widget on top of the general visualisation polish",
         "Built core product modules AttackCapture™ and HuntSQL™ with the latest Next.js and shadcn/ui",
       ],
     },
@@ -92,7 +92,7 @@ export const role: MiniRole = {
       company: "NextBitt",
       period: "Oct 2015 - Jul 2016",
       highlights: [
-        "Analytics dashboards and reporting, auditing, and management tools for asset & facilities management software, with heavy data visualisation using Google Charts, dygraphs, Chart.js, d3.js, and C3.js",
+        "Analytics dashboards and reporting, auditing, and management tools for asset & facilities management software, with heavy data visualisation using Chart.js and d3.js",
       ],
     },
   ],

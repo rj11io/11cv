@@ -29,8 +29,7 @@ export const role: MiniRole = {
     {
       name: "Platform & Tooling",
       items: [
-        "Design Systems",
-        "Storybook",
+        "Cloud",
         "Git",
         "GitHub Actions",
         "CI/CD",
@@ -46,6 +45,7 @@ export const role: MiniRole = {
         "Harness Engineering",
         "Codex",
         "Claude Code",
+        "n8n"
       ],
     },
   ],
@@ -76,7 +76,7 @@ export const role: MiniRole = {
       url: "https://www.omegasys.eu/",
       highlights: [
         "Promoted to lead the frontend team: built the \"New Developer\" onboarding experience and set standards for tickets, documentation, and remote / async workflows",
-        "Built the localisation / internationalisation module and an internal \"Tab System\" UI",
+        "Many bare metal deployments and maintained legacy Jenkins pipelines for licensed software",
       ],
     },
     {

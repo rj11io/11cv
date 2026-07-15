@@ -34,6 +34,7 @@ export const role: MiniRole = {
         "Harness Engineering",
         "Codex",
         "Claude Code",
+        "n8n"
       ],
     },
     {
@@ -65,7 +66,7 @@ export const role: MiniRole = {
       url: "https://www.rj11.io",
       highlights: [
         "Hands-on AI product engineering for multiple early-stage startups, building projects from the ground up",
-        "AI data extraction from PDFs, AI SEO analytics, a GenAI dermatopathology portal, AI chats, and smart scraping agents",
+        "AI data extraction from PDFs, AI SEO analytics, a GenAI dermatopathology portal, AI chats and custom GPT experiences",
         "Cybersecurity dashboards, proprietary data explorers, and AI agent harnesses, skills, and automations",
       ],
     },
