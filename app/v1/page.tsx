@@ -35,7 +35,7 @@ export default function Page() {
               "mt-2.5 text-lg/snug text-pretty text-muted-foreground italic sm:text-xl/snug"
             )}
           >
-            CV · v1 variants
+            Curriculum Vitae · v1 variants
           </p>
           <p className="mt-6 max-w-prose text-[15px]/relaxed text-pretty text-foreground/85">
             One CV, several cuts. Max is the full story, Mini is the two-page
