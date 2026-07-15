@@ -252,7 +252,7 @@ export function MiniCV({ role }: { role: MiniRole }) {
           "@media print { nextjs-portal { display: none } html, body { background: #fff !important } }"
         }
       </style>
-      <div className="mx-auto max-w-[46rem] px-6 py-14 sm:px-8 sm:py-20 print:max-w-none print:p-0">
+      <div className="mx-auto max-w-[49rem] px-6 py-14 sm:px-8 sm:py-20 print:max-w-none print:p-0">
         <header className="relative">
           {profile.name && (
             <h1

@@ -11,7 +11,7 @@ export const role: MiniRole = {
     "One-page CV focused on the Product Engineer role: shipping products end to end.",
   pdfPages: 1,
   summary: [
-    "Product Engineer with a decade of professional TypeScript experience, building on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, and pipelines from day one and shipping product features end to end. I work autonomously, with an eye for what separates a polished product from a prototype. Lately that means AI products: data extraction, analytics, chats, and full agent harnesses.",
+    "Product Engineer with a decade of professional TypeScript experience, building on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, and pipelines from day one and shipping product features end to end. Most of that experience is in cybersecurity, building dashboards and proprietary data explorers. That's where I learned what separates a polished product from a prototype and found my passion for data-driven products and visualisations.",
   ],
   skills: [
     {
