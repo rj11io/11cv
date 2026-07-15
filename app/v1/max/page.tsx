@@ -1,12 +1,21 @@
+import type { Metadata } from "next"
 import { Fragment } from "react"
 
+import { PrintButton } from "@/components/print-button"
 import { loadCV } from "@/lib/cv"
 import type { Entry, SkillGroup } from "@/lib/cv"
+import { contactList } from "@/lib/cv/contacts"
+import type { Contact } from "@/lib/cv/contacts"
 import { Inline } from "@/lib/cv/markdown"
 import { bareUrl, cn } from "@/lib/utils"
 
 import styles from "./cv.module.css"
-import { PrintButton } from "./print-button"
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/v1/max",
+  },
+}
 
 const SERIF = "font-[family-name:var(--font-serif-cv)]"
 const LINK =
@@ -38,53 +47,13 @@ const PERSON_JSON_LD = {
   ],
 }
 
-type Contact = { label: string; href?: string }
-
-// Turn the free-form frontmatter meta (location, email, website, handles,
-// anything else) into a display label + optional link, in a stable order.
-function contactList(meta: Record<string, string>): Contact[] {
-  const bare = (url: string) =>
-    url.replace(/^https?:\/\//, "").replace(/\/$/, "")
-  const known: Record<string, (value: string) => Contact> = {
-    location: (value) => ({ label: value }),
-    email: (value) => ({ label: value, href: `mailto:${value}` }),
-    website: (value) => ({
-      label: bare(value).replace(/^www\./, ""),
-      href: value,
-    }),
-    github: (value) => {
-      const href = value.startsWith("http")
-        ? value
-        : `https://github.com/${value}`
-      return { label: bare(href), href }
-    },
-    linkedin: (value) => {
-      const href = value.startsWith("http")
-        ? value
-        : `https://www.linkedin.com/in/${value}`
-      return { label: bare(href).replace(/^www\./, ""), href }
-    },
-  }
-  const order = ["location", "email", "website", "github", "linkedin"]
-  const rest = Object.keys(meta).filter((key) => !order.includes(key))
-  return [...order, ...rest]
-    .filter((key) => meta[key])
-    .map((key) => {
-      const build = known[key]
-      if (build) return build(meta[key])
-      return meta[key].startsWith("http")
-        ? { label: bare(meta[key]), href: meta[key] }
-        : { label: meta[key] }
-    })
-}
-
 // JSX drops the newline whitespace between sibling elements, so separators
 // must carry their own spaces: a non-breaking one keeps the dot attached to
 // the item before it, the plain one after is the line's soft-wrap point.
 function Dot() {
   return (
     <span aria-hidden className="text-muted-foreground/50 select-none">
-      {" · "}
+      {" · "}
     </span>
   )
 }

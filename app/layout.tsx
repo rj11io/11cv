@@ -45,9 +45,6 @@ export const metadata: Metadata = {
     "Lisbon",
   ],
   referrer: "origin-when-cross-origin",
-  alternates: {
-    canonical: "/",
-  },
   formatDetection: {
     telephone: false,
     address: false,
