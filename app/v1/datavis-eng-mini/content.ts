@@ -11,7 +11,7 @@ export const role: MiniRole = {
     "One-page CV focused on the Data Visualisation Engineer role: dashboards, custom vis components, and data explorers.",
   pdfPages: 1,
   summary: [
-    "Data Visualisation Engineer with a decade of professional TypeScript experience, on React since 2016 and Next.js since 2018. Most of my experience is in cybersecurity, building dashboards and proprietary data explorers, where I learned what separates a polished product from a prototype. The visualisation track record runs from Google Charts, dygraphs, and d3 dashboards in 2015 to threat-intelligence widgets, iGaming dashboards, and today's AI-powered analytics.",
+    "Data Visualisation Engineer with a decade of professional TypeScript experience, on React since 2016 and Next.js since 2018. Most of my experience is in cybersecurity, building dashboards and proprietary data explorers, where I learned what separates a polished product from a prototype. The track record runs from d3 dashboards in 2015 to threat-intelligence widgets, iGaming dashboards, and today's AI-powered analytics.",
   ],
   skills: [
     {
@@ -101,9 +101,14 @@ export const role: MiniRole = {
     "Also: Senior Frontend Engineer at Phantasma Chain, building Phantasma Explorer (2022 - 2023); co-founder at Glaiveware (2018 - 2019); full-stack dashboard for the American Heart Association (2016).",
   projects: [
     {
-      name: "11intel",
-      url: "https://intel.rj11.io/",
-      blurb: "AI Intel briefing reports on a blog format",
+      name: "11io",
+      url: "https://www.rj11.io/",
+      blurb: "Personal brand for B2B freelancing",
+    },
+    {
+      name: "11ai",
+      url: "https://ai.rj11.io/",
+      blurb: "Open source AI skills, plugins, and workflows",
     },
     {
       name: "11bench",

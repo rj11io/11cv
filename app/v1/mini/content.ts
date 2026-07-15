@@ -127,14 +127,9 @@ export const role: MiniRole = {
       blurb: "Open source AI skills, plugins, and workflows",
     },
     {
-      name: "11labs",
-      url: "https://labs.rj11.io/",
-      blurb: "AI factory for micro software and tools",
-    },
-    {
-      name: "thevibe.coach",
-      url: "https://www.thevibe.coach/",
-      blurb: "AI vibe code coaching",
+      name: "11bench",
+      url: "https://bench.rj11.io/",
+      blurb: "Open source AI benchmarks",
     },
   ],
 }

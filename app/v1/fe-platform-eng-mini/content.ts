@@ -104,6 +104,11 @@ export const role: MiniRole = {
     "Earlier: co-founder at Glaiveware, with infrastructure on AWS, Ubuntu, and nginx (2018 - 2019); roles at Sycret.ink, the American Heart Association, and NextBitt (2015 - 2017).",
   projects: [
     {
+      name: "11io",
+      url: "https://www.rj11.io/",
+      blurb: "Personal brand for B2B freelancing",
+    },
+    {
       name: "11ai",
       url: "https://ai.rj11.io/",
       blurb: "Open source AI skills, plugins, and workflows",

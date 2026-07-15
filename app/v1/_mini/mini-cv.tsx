@@ -96,21 +96,6 @@ function EntryItem({ entry, dense }: { entry: MiniEntry; dense: boolean }) {
           )}
         >
           {entry.role}
-          <span className="font-normal text-muted-foreground italic">
-            {" · "}
-            {entry.url ? (
-              <a
-                href={entry.url}
-                className={LINK}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {entry.company}
-              </a>
-            ) : (
-              entry.company
-            )}
-          </span>
         </h3>
         <p
           className={cn(
@@ -121,6 +106,27 @@ function EntryItem({ entry, dense }: { entry: MiniEntry; dense: boolean }) {
           {entry.period}
         </p>
       </div>
+      <p
+        className={cn(
+          "mt-0.5 text-xs text-muted-foreground",
+          dense && "print:mt-0 print:text-[10px]/[1.5]"
+        )}
+      >
+        {entry.company}
+        {entry.url && (
+          <>
+            <Dot />
+            <a
+              href={entry.url}
+              className={LINK}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {bareUrl(entry.url)}
+            </a>
+          </>
+        )}
+      </p>
       <ul className={cn("mt-1.5 space-y-1", dense && "print:mt-1 print:space-y-0.5")}>
         {entry.highlights.map((item, i) => (
           <li
