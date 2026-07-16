@@ -245,6 +245,12 @@ export default function Page() {
               Press &quot;D&quot; for dark mode
             </p>
           </div>
+          <a
+            href="https://cv.rj11.io"
+            className="hidden font-mono text-[11px]/none text-muted-foreground print:absolute print:top-1 print:right-0 print:block"
+          >
+            cv.rj11.io
+          </a>
         </header>
 
         <main className="mt-12 space-y-12 print:mt-8 print:space-y-7">

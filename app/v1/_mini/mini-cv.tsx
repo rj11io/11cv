@@ -327,6 +327,12 @@ export function MiniCV({ role }: { role: MiniRole }) {
             </p>
             <PrintButton />
           </div>
+          <a
+            href="https://cv.rj11.io"
+            className="hidden font-mono text-[10px]/none text-muted-foreground print:absolute print:top-1 print:right-0 print:block"
+          >
+            cv.rj11.io
+          </a>
         </header>
 
         <main
