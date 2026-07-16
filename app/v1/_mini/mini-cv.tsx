@@ -321,11 +321,11 @@ export function MiniCV({ role }: { role: MiniRole }) {
               ))}
             </p>
           )}
-          <div className="mt-6 w-fit text-center sm:absolute sm:top-1 sm:right-0 sm:mt-0 print:hidden">
-            <PrintButton />
-            <p className="mt-2 font-mono text-[10px]/none text-muted-foreground/50">
+          <div className="mt-6 flex w-fit items-center gap-3 sm:absolute sm:top-1 sm:right-0 sm:mt-0 print:hidden">
+            <p className="font-mono text-[10px]/none whitespace-nowrap text-muted-foreground/50">
               Press &quot;D&quot; for dark mode
             </p>
+            <PrintButton />
           </div>
         </header>
 
