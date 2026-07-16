@@ -37,9 +37,7 @@ straight to the solution. In practice, that has meant wearing every hat a
 startup has (officially and unofficially), though I default to product
 engineering, where I have the biggest and most immediate impact.
 
-I've built with AI since the first releases of Copilot, ChatGPT, and MidJourney, moving from autocomplete to prompt and context
-engineering to designing full agent harnesses. Today I run an automated
-fleet of AI agents that maintain my personal projects.
+I've built with AI since the first releases of Copilot, ChatGPT, and MidJourney, moving from prompt and context engineering to creating suite of open-source skills to designing full agent harnesses and automations.
 
 For the past few years I've been working as a hands-on B2B freelancer across
 multiple teams, putting my technical skills to full use, sharing what I
