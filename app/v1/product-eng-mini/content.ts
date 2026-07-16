@@ -100,12 +100,12 @@ export const role: MiniRole = {
     {
       name: "11ai",
       url: "https://ai.rj11.io/",
-      blurb: "Open source AI skills, plugins, and workflows",
+      blurb: "Open source AI skills and plugins",
     },
     {
-      name: "Legacy Github",
-      url: "https://github.com/ricardojrmcom?tab=repositories",
-      blurb: "Open source code I produced 2020-2023",
+      name: "11bench",
+      url: "https://bench.rj11.io/",
+      blurb: "Open source AI benchmarks",
     },
   ],
 }
