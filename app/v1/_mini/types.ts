@@ -40,6 +40,8 @@ export type MiniRole = {
   pdfPages: 1 | 2
   /** Short intro paragraphs, ideally one or two. May contain inline markdown. */
   summary: string[]
+  /** Optional short personal highlights shown after the summary. */
+  funFacts?: string[]
   /** Skill groups, trimmed and ordered for the role. */
   skills: MiniSkillGroup[]
   /** Experience entries to show, most recent first. */

@@ -188,6 +188,35 @@ function SkillGroups({
   )
 }
 
+function BulletList({
+  items,
+  dense,
+}: {
+  items: string[]
+  dense: boolean
+}) {
+  return (
+    <ul className={cn("space-y-1", dense && "print:space-y-0.5")}>
+      {items.map((item, i) => (
+        <li
+          key={i}
+          className={cn(
+            "flex gap-2.5 text-[13px]/relaxed text-foreground/80",
+            body(dense)
+          )}
+        >
+          <span aria-hidden className="text-muted-foreground/60 select-none">
+            –
+          </span>
+          <span className="max-w-prose min-w-0 text-pretty">
+            <Inline text={item} linkClassName={LINK} />
+          </span>
+        </li>
+      ))}
+    </ul>
+  )
+}
+
 function ProjectList({
   projects,
   dense,
@@ -322,6 +351,12 @@ export function MiniCV({ role }: { role: MiniRole }) {
                   </p>
                 ))}
               </div>
+            </Section>
+          )}
+
+          {role.funFacts && role.funFacts.length > 0 && (
+            <Section label="Fun facts" dense={dense}>
+              <BulletList items={role.funFacts} dense={dense} />
             </Section>
           )}
 
