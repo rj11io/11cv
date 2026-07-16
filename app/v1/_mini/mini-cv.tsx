@@ -441,6 +441,25 @@ export function MiniCV({ role }: { role: MiniRole }) {
               </div>
             </Section>
           )}
+
+          {role.footerCallout && (
+            <p
+              className={cn(
+                "break-inside-avoid text-center text-xs/relaxed text-pretty text-muted-foreground",
+                body(dense)
+              )}
+            >
+              {role.footerCallout.text}{" "}
+              <a
+                href={role.footerCallout.url}
+                className={LINK}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {bareUrl(role.footerCallout.url)}
+              </a>
+            </p>
+          )}
         </main>
       </div>
     </div>

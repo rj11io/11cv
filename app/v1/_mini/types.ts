@@ -50,4 +50,9 @@ export type MiniRole = {
   earlierRoles?: string
   /** Selected projects, rendered as one-liners. */
   projects?: MiniProject[]
+  /** Optional closing callout with an exposed destination URL. */
+  footerCallout?: {
+    text: string
+    url: string
+  }
 }

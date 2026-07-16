@@ -138,4 +138,8 @@ export const role: MiniRole = {
       blurb: "Open source AI benchmarks",
     },
   ],
+  footerCallout: {
+    text: "This is the minified version of my CV. Read the full story at",
+    url: "https://cv.rj11.io/v1/max",
+  },
 }

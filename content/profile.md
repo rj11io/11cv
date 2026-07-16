@@ -29,11 +29,7 @@ architecture, tooling, component library, infrastructure, and pipelines from
 day one. It also meant growing the team: hiring, onboarding, and writing the
 playbooks that let new engineers integrate seamlessly.
 
-I've worked with companies across many industries, but most of my experience
-is in cybersecurity, building dashboards and proprietary data explorers.
-That's where I developed a passion for data-driven products and data
-visualisation, and where I learned what separates a polished product from a
-prototype.
+I've worked with companies across many industries but most of my experience is building dashboards, product platforms, and proprietary data explorers for cybersecurity, crypto, and gaming companies. That's where I found a passion for data-driven products and visualisations, and where I learned what separates a polished product from a prototype.
 
 I operate as a self-guided missile: point me at a target and I'll figure out
 how to hit it on my own, using everything I've learned to avoid the pitfalls and drive

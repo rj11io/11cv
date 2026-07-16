@@ -21,7 +21,6 @@ export type Variant = {
 }
 
 export const MINI_ROLES: MiniRole[] = [
-  mini,
   productEngMini,
   fePlatformEngMini,
   datavisEngMini,
@@ -29,6 +28,7 @@ export const MINI_ROLES: MiniRole[] = [
 ]
 
 export const VARIANTS: Variant[] = [
+  mini,
   {
     slug: "max",
     name: "Max",
