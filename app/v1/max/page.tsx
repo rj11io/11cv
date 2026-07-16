@@ -205,26 +205,28 @@ export default function Page() {
       </style>
       <div className="mx-auto max-w-[50rem] px-6 py-16 sm:px-8 sm:py-24 print:max-w-none print:p-0">
         <header className="relative">
-          {profile.name && (
-            <h1
-              className={cn(
-                SERIF,
-                "text-4xl/[1.1] font-medium tracking-tight text-balance sm:text-[2.75rem]/[1.1]"
-              )}
-            >
-              {profile.name}
-            </h1>
-          )}
-          {profile.title && (
-            <p
-              className={cn(
-                SERIF,
-                "mt-2.5 text-lg/snug text-pretty text-muted-foreground italic sm:text-xl/snug"
-              )}
-            >
-              {profile.title}
-            </p>
-          )}
+          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            {profile.name && (
+              <h1
+                className={cn(
+                  SERIF,
+                  "text-4xl/[1.1] font-medium tracking-tight text-balance sm:text-[2.75rem]/[1.1]"
+                )}
+              >
+                {profile.name}
+              </h1>
+            )}
+            {profile.title && (
+              <p
+                className={cn(
+                  SERIF,
+                  "text-lg/snug text-pretty text-muted-foreground italic sm:text-xl/snug"
+                )}
+              >
+                {profile.title}
+              </p>
+            )}
+          </div>
           {contacts.length > 0 && (
             <p className="mt-6 font-mono text-xs/loose text-muted-foreground print:mt-4 print:text-[11px]/loose">
               {contacts.map((contact, i) => (

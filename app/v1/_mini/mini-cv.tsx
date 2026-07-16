@@ -267,7 +267,6 @@ export function MiniCV({ role }: { role: MiniRole }) {
   const { profile, education } = loadCV()
   const contacts = contactList(profile.meta)
   const dense = role.pdfPages === 1
-  const inlineTitle = role.slug === "mini"
 
   return (
     <div className={cn(styles.page, "bg-background text-foreground")}>
@@ -281,11 +280,7 @@ export function MiniCV({ role }: { role: MiniRole }) {
       </style>
       <div className="mx-auto max-w-[49rem] px-6 py-14 sm:px-8 sm:py-20 print:max-w-none print:p-0">
         <header className="relative">
-          <div
-            className={cn(
-              inlineTitle && "flex flex-wrap items-baseline gap-x-3 gap-y-1"
-            )}
-          >
+          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
             {profile.name && (
               <h1
                 className={cn(
@@ -301,11 +296,7 @@ export function MiniCV({ role }: { role: MiniRole }) {
               className={cn(
                 SERIF,
                 "text-base/snug text-pretty text-muted-foreground italic sm:text-lg/snug",
-                !inlineTitle && "mt-2",
-                dense &&
-                  (inlineTitle
-                    ? "print:text-[13px]/snug"
-                    : "print:mt-1 print:text-[13px]/snug")
+                dense && "print:text-[13px]/snug"
               )}
             >
               {role.title}
