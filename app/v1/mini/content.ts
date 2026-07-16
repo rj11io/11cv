@@ -11,13 +11,12 @@ export const role: MiniRole = {
   pdfPages: 2,
   summary: [
     "AI Product Engineer with a decade of professional TypeScript experience, building on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, component libraries, and pipelines from day one, then growing the team around them: hiring, interviewing, onboarding, and writing the playbooks that let new engineers integrate seamlessly.",
-    "Most of my experience is in cybersecurity, building dashboards and proprietary data explorers. That's where I found a passion for data-driven products and visualisations. I've built with AI since the first releases of Copilot and ChatGPT, moving from prompt and context engineering to creating suite of open-source skills to designing full agent harnesses and automations.",
+    "Most of my experience is building dashboards, product platforms and proprietary data explorers for cybersecurity, crypto, and gaming companies. That's where I found a passion for data-driven products and visualisations. I've built with AI since the first releases of Copilot and ChatGPT, moving from prompt and context engineering to creating suite of open-source skills to designing full agent harnesses and automations.",
   ],
   funFacts: [
     "Started coding young for fun by modding and reverse-engineering games and consoles.",
     "Built my own fighting game with the MUGEN engine and ran dedicated servers for Counter-Strike, Minecraft, and other titles.",
     "Placed second nationally and reached the final four of the 2008 robotics world cup in China with LEGO Mindstorms.",
-    "Led competitive gaming teams to top online ladder rankings and LAN tournament wins.",
   ],
   skills: [
     {
