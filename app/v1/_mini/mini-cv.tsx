@@ -267,6 +267,7 @@ export function MiniCV({ role }: { role: MiniRole }) {
   const { profile, education } = loadCV()
   const contacts = contactList(profile.meta)
   const dense = role.pdfPages === 1
+  const inlineTitle = role.slug === "mini"
 
   return (
     <div className={cn(styles.page, "bg-background text-foreground")}>
@@ -280,26 +281,36 @@ export function MiniCV({ role }: { role: MiniRole }) {
       </style>
       <div className="mx-auto max-w-[49rem] px-6 py-14 sm:px-8 sm:py-20 print:max-w-none print:p-0">
         <header className="relative">
-          {profile.name && (
-            <h1
-              className={cn(
-                SERIF,
-                "text-3xl/[1.1] font-medium tracking-tight text-balance sm:text-4xl/[1.1]",
-                dense && "print:text-[26px]/[1.05]"
-              )}
-            >
-              {profile.name}
-            </h1>
-          )}
-          <p
+          <div
             className={cn(
-              SERIF,
-              "mt-2 text-base/snug text-pretty text-muted-foreground italic sm:text-lg/snug",
-              dense && "print:mt-1 print:text-[13px]/snug"
+              inlineTitle && "flex flex-wrap items-baseline gap-x-3 gap-y-1"
             )}
           >
-            {role.title}
-          </p>
+            {profile.name && (
+              <h1
+                className={cn(
+                  SERIF,
+                  "text-3xl/[1.1] font-medium tracking-tight text-balance sm:text-4xl/[1.1]",
+                  dense && "print:text-[26px]/[1.05]"
+                )}
+              >
+                {profile.name}
+              </h1>
+            )}
+            <p
+              className={cn(
+                SERIF,
+                "text-base/snug text-pretty text-muted-foreground italic sm:text-lg/snug",
+                !inlineTitle && "mt-2",
+                dense &&
+                  (inlineTitle
+                    ? "print:text-[13px]/snug"
+                    : "print:mt-1 print:text-[13px]/snug")
+              )}
+            >
+              {role.title}
+            </p>
+          </div>
           {contacts.length > 0 && (
             <p
               className={cn(
