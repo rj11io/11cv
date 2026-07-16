@@ -331,6 +331,12 @@ export function MiniCV({ role }: { role: MiniRole }) {
             </Section>
           )}
 
+          {role.projects && role.projects.length > 0 && (
+            <Section label="Projects" dense={dense}>
+              <ProjectList projects={role.projects} dense={dense} />
+            </Section>
+          )}
+
           {role.experience.length > 0 && (
             <Section label="Experience" dense={dense}>
               <div
@@ -353,12 +359,6 @@ export function MiniCV({ role }: { role: MiniRole }) {
                   </p>
                 )}
               </div>
-            </Section>
-          )}
-
-          {role.projects && role.projects.length > 0 && (
-            <Section label="Projects" dense={dense}>
-              <ProjectList projects={role.projects} dense={dense} />
             </Section>
           )}
 
