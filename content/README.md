@@ -1,14 +1,15 @@
 # CV content
 
-These Markdown files are the single source of truth for the CV. The homepage
-renders its content directly from this folder.
+These Markdown files are the single source of truth for the full CV. The
+`/v1/max` route and the shared mini-variant renderer load identity and education
+from this folder; the homepage redirects to `/v1/mini`.
 
 ## Format
 
 Each file follows the same small set of rules, parsed by `lib/cv`:
 
 - **Frontmatter** (`---` block at the top): `key: value` lines. Used in
-  `profile.md` for name, title, and contact links.
+  `profile.md` for the name, title, location, and contact details.
 - **`## Heading`** starts an entry (a job, a degree, a project, a skill
   group). `# Single-hash` titles are decoration and get ignored.
 - **`key: value` lines directly under a `##` heading** are that entry's
