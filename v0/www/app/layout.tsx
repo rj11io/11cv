@@ -34,6 +34,38 @@ export const metadata: Metadata = {
   authors: [{ name: "Ricardo Jorge", url: "https://cv.rj11.io" }],
   creator: "Ricardo Jorge",
   publisher: "Ricardo Jorge",
+  icons: {
+    icon: [
+      {
+        url: "/static/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+      {
+        url: "/static/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/static/icon-192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/static/icon-512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/static/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+    shortcut: ["/favicon.ico"],
+  },
   keywords: [
     "AI Product Engineer",
     "Product Engineer",
@@ -61,12 +93,23 @@ export const metadata: Metadata = {
     firstName: "Ricardo",
     lastName: "Jorge",
     username: "rj11io",
+    images: [
+      {
+        url: "/static/cv-rj11io-favicon-style-inverted-blue-og-v1.png",
+        width: 1200,
+        height: 630,
+        alt: "Ricardo Jorge, AI Product Engineer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ricardo Jorge: AI Product Engineer CV",
     description:
       "AI Product Engineer building production AI systems, data-driven products, and polished TypeScript experiences.",
+    images: [
+      "/static/cv-rj11io-favicon-style-inverted-blue-og-v1.png",
+    ],
   },
   robots: {
     index: true,
