@@ -19,6 +19,9 @@ import type { MiniEntry, MiniProject, MiniRole, MiniSkillGroup } from "./types"
 const SERIF = "font-[family-name:var(--font-serif-cv)]"
 const LINK =
   "underline decoration-foreground/25 underline-offset-[3px] transition-colors hover:decoration-foreground print:decoration-foreground/40"
+const SOCIAL_IMAGE =
+  "/static/cv-rj11io-favicon-style-inverted-blue-og-v1.png"
+const SOCIAL_IMAGE_ALT = "Ricardo Jorge, AI Product Engineer"
 
 /** Print-only body text size: 13px on screen stays, print shrinks if dense. */
 const body = (dense: boolean) =>
@@ -31,8 +34,24 @@ export function miniMetadata(role: MiniRole): Metadata {
     title,
     description: role.description,
     alternates: { canonical: `/v1/${role.slug}` },
-    openGraph: { title, description: role.description, url: `/v1/${role.slug}` },
-    twitter: { title, description: role.description },
+    openGraph: {
+      title,
+      description: role.description,
+      url: `/v1/${role.slug}`,
+      images: [
+        {
+          url: SOCIAL_IMAGE,
+          width: 1200,
+          height: 630,
+          alt: SOCIAL_IMAGE_ALT,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description: role.description,
+      images: [SOCIAL_IMAGE],
+    },
   }
 }
 
