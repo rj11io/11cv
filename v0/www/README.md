@@ -1,5 +1,8 @@
 # Ricardo Jorge — AI Product Engineer
 
+This README documents the Next.js CV app in `v0/www`. For repository-level
+setup and layout, see [`../../README.md`](../../README.md).
+
 Hi, I'm Ricardo Jorge, but you can call me RJ. I'm an AI Product Engineer
 based in Lisbon, working hands-on with early-stage teams to turn ambitious
 ideas into polished, production-ready products.
@@ -95,7 +98,8 @@ keen on working together.
 
 This repository contains my web and print CV, built with Next.js and designed
 for clean A4 output. The Markdown files in [`content/`](content/) are the
-single source of truth; their supported format is documented in
+source of truth for the shared profile, experience, education, projects, and
+skills data; their supported format is documented in
 [`content/README.md`](content/README.md).
 
 The site exposes several CV cuts under `/v1`:
@@ -114,6 +118,8 @@ The site exposes several CV cuts under `/v1`:
 The role-focused variants keep their tailored summaries, skills, and experience
 in `app/v1/*/content.ts`. They share a renderer and load identity and education
 from `content/`.
+
+From this directory (`v0/www`):
 
 ```bash
 npm install

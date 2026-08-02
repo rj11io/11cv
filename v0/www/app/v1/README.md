@@ -18,11 +18,11 @@ generalist compact CV, and four role-focused one-page CVs.
 Run the site from the repository root:
 
 ```bash
-npm run dev
+npm --prefix v0/www run dev
 ```
 
-Then open `http://localhost:3000/v1`. Every CV page includes a **Download PDF**
-button that opens the browser print dialog.
+Then open `http://localhost:3000/v1`. Every CV variant page includes a
+**Download PDF** button that opens the browser print dialog.
 
 ## How variants are defined
 
