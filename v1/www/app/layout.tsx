@@ -27,9 +27,9 @@ const serif = Newsreader({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://cv.rj11.io"),
-  title: "Ricardo Jorge: AI Product Engineer CV",
+  title: "Ricardo Jorge: AI Engineer / Consultant CV",
   description:
-    "AI Product Engineer building production AI systems, data-driven products, and polished TypeScript experiences.",
+    "AI Engineer / Consultant building production AI systems, data-driven products, and polished TypeScript experiences.",
   applicationName: "Ricardo Jorge CV",
   authors: [{ name: "Ricardo Jorge", url: "https://cv.rj11.io" }],
   creator: "Ricardo Jorge",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     shortcut: ["/favicon.ico"],
   },
   keywords: [
-    "AI Product Engineer",
+    "AI Engineer / Consultant",
     "Product Engineer",
     "TypeScript",
     "React",
@@ -85,9 +85,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "profile",
     url: "/",
-    title: "Ricardo Jorge: AI Product Engineer CV",
+    title: "Ricardo Jorge: AI Engineer / Consultant CV",
     description:
-      "AI Product Engineer building production AI systems, data-driven products, and polished TypeScript experiences.",
+      "AI Engineer / Consultant building production AI systems, data-driven products, and polished TypeScript experiences.",
     siteName: "Ricardo Jorge",
     locale: "en_GB",
     firstName: "Ricardo",
@@ -98,15 +98,15 @@ export const metadata: Metadata = {
         url: "/static/cv-rj11io-favicon-style-inverted-blue-og-v1.png",
         width: 1200,
         height: 630,
-        alt: "Ricardo Jorge, AI Product Engineer",
+        alt: "Ricardo Jorge, AI Engineer / Consultant",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ricardo Jorge: AI Product Engineer CV",
+    title: "Ricardo Jorge: AI Engineer / Consultant CV",
     description:
-      "AI Product Engineer building production AI systems, data-driven products, and polished TypeScript experiences.",
+      "AI Engineer / Consultant building production AI systems, data-driven products, and polished TypeScript experiences.",
     images: [
       "/static/cv-rj11io-favicon-style-inverted-blue-og-v1.png",
     ],

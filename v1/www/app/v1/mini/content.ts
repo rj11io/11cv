@@ -5,12 +5,12 @@ import type { MiniRole } from "../_mini/types"
 export const role: MiniRole = {
   slug: "mini",
   name: "Mini",
-  title: "AI Product Engineer",
+  title: "AI Engineer / Consultant",
   description:
     "The compact CV: a decade of product engineering condensed to two pages.",
   pdfPages: 2,
   summary: [
-    "AI Product Engineer with a decade of professional TypeScript experience, building on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, component libraries, and pipelines from day one, then growing the team around them: hiring, interviewing, onboarding, and writing the playbooks that let new engineers integrate seamlessly.",
+    "AI Engineer / Consultant with a decade of professional TypeScript experience, building on React since 2016 and Next.js since 2018. On most projects I was the first frontend hire, owning architecture, tooling, component libraries, and pipelines from day one, then growing the team around them: hiring, interviewing, onboarding, and writing the playbooks that let new engineers integrate seamlessly.",
     "Most of my experience is building dashboards, product platforms and proprietary data explorers for cybersecurity, crypto, and gaming companies. That's where I found a passion for data-driven products and visualisations. I've built with AI since the first releases of Copilot and ChatGPT, moving from prompt and context engineering to creating suite of open-source skills to designing full agent harnesses and automations.",
   ],
   funFacts: [
@@ -65,7 +65,7 @@ export const role: MiniRole = {
   ],
   experience: [
     {
-      role: "AI Product Engineer",
+      role: "AI Engineer / Consultant",
       company: "rj11io",
       period: "Mar 2025 - Present",
       url: "https://www.rj11.io",

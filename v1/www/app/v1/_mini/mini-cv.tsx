@@ -21,7 +21,7 @@ const LINK =
   "underline decoration-foreground/25 underline-offset-[3px] transition-colors hover:decoration-foreground print:decoration-foreground/40"
 const SOCIAL_IMAGE =
   "/static/cv-rj11io-favicon-style-inverted-blue-og-v1.png"
-const SOCIAL_IMAGE_ALT = "Ricardo Jorge, AI Product Engineer"
+const SOCIAL_IMAGE_ALT = "Ricardo Jorge, AI Engineer / Consultant"
 
 /** Print-only body text size: 13px on screen stays, print shrinks if dense. */
 const body = (dense: boolean) =>

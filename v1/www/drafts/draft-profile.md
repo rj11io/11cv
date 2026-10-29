@@ -1,4 +1,4 @@
-Hi, I'm Ricardo Jorge, but you can call me RJ. I'm an AI Product Engineer that started coding very young and for the fun of it: modding and reverse engineering games and consoles, building my own
+Hi, I'm Ricardo Jorge, but you can call me RJ. I'm an AI Engineer / Consultant that started coding very young and for the fun of it: modding and reverse engineering games and consoles, building my own
 fighting game on the MUGEN engine, and running dedicated game servers for
 Counter-Strike, Minecraft, and half the titles I grew up on. In 7th grade
 science class I started programming Lego Mindstorms robots and that took our

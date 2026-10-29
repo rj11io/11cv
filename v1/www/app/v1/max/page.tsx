@@ -27,7 +27,7 @@ const PERSON_JSON_LD = {
   name: "Ricardo Jorge",
   alternateName: "RJ",
   url: "https://cv.rj11.io",
-  jobTitle: "AI Product Engineer",
+  jobTitle: "AI Engineer / Consultant",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Lisbon",

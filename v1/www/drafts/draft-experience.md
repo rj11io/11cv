@@ -1,6 +1,6 @@
 # Experience
 
-## AI Product Engineer
+## AI Engineer / Consultant
 company: rj11io
 period: Mar 2025 — Present
 location: B2B · Remote

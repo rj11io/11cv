@@ -1,6 +1,6 @@
 ---
 name: Ricardo Jorge
-title: AI Product Engineer
+title: AI Engineer / Consultant
 location: Lisbon, Portugal
 website: https://www.rj11.io
 email: ricardojorgexyz@gmail.com
@@ -8,7 +8,7 @@ linkedin: rj11io
 github: rj11io
 ---
 
-Hi, I'm Ricardo Jorge, but you can call me RJ. I'm an AI Product Engineer
+Hi, I'm Ricardo Jorge, but you can call me RJ. I'm an AI Engineer / Consultant
 who started coding young, purely for fun: modding and reverse-engineering
 games and consoles, building my own fighting game on the MUGEN engine, and
 running dedicated servers for Counter-Strike, Minecraft, and half the titles

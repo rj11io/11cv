@@ -1,9 +1,9 @@
-# Ricardo Jorge — AI Product Engineer
+# Ricardo Jorge — AI Engineer / Consultant
 
 This README documents the Next.js CV app in `v1/www`. For repository-level
 setup and layout, see [`../../README.md`](../../README.md).
 
-Hi, I'm Ricardo Jorge, but you can call me RJ. I'm an AI Product Engineer
+Hi, I'm Ricardo Jorge, but you can call me RJ. I'm an AI Engineer / Consultant
 based in Lisbon, working hands-on with early-stage teams to turn ambitious
 ideas into polished, production-ready products.
 
@@ -31,7 +31,7 @@ technical leadership.
 
 | Period | Role | Company |
 | --- | --- | --- |
-| 2025 — Present | AI Product Engineer | [rj11io](https://www.rj11.io) |
+| 2025 — Present | AI Engineer / Consultant | [rj11io](https://www.rj11.io) |
 | 2024 — 2025 | Product / Datavis Engineer | [Hunt Intelligence](https://hunt.io/) |
 | 2023 — 2024 | Senior Frontend Engineer → Team Lead | [OMEGA Systems](https://www.omegasys.eu/) |
 | 2022 — 2023 | Senior Frontend Engineer | [Phantasma Chain](https://phantasma.info/) |

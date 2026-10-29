@@ -20,7 +20,7 @@ export const VARIANTS: Variant[] = [
   {
     slug: "max",
     name: "Max",
-    title: "AI Product Engineer",
+    title: "AI Engineer / Consultant",
     description: "The full CV: every role, project, and detail.",
   },
 
