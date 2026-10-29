@@ -110,14 +110,9 @@ The site exposes several CV cuts under `/v1`:
 | `/v1` | Index of every CV variant |
 | `/v1/max` | Full CV loaded from `content/` |
 | `/v1/mini` | Two-page generalist CV |
-| `/v1/product-eng-mini` | One-page Product Engineer CV |
-| `/v1/fe-platform-eng-mini` | One-page Frontend Platform Engineer CV |
-| `/v1/datavis-eng-mini` | One-page Data Visualisation Engineer CV |
-| `/v1/founding-product-eng-mini` | One-page Founding Product Engineer CV |
 
-The role-focused variants keep their tailored summaries, skills, and experience
-in `app/v1/*/content.ts`. They share a renderer and load identity and education
-from `content/`.
+Mini keeps its tailored content in `app/v1/mini/content.ts` and loads identity
+and education from `content/`.
 
 From this directory (`v1/www`):
 

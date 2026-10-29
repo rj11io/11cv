@@ -12,7 +12,7 @@ const SERIF = "font-[family-name:var(--font-serif-cv)]"
 export const metadata: Metadata = {
   title: "Ricardo Jorge: CV Variants",
   description:
-    "Every variant of Ricardo Jorge's CV: the full version and role-focused two-page minis.",
+    "Ricardo Jorge's full CV and compact two-page version.",
   alternates: { canonical: "/v1" },
 }
 
@@ -38,8 +38,7 @@ export default function Page() {
             Curriculum Vitae · v1 variants
           </p>
           <p className="mt-6 max-w-prose text-[15px]/relaxed text-pretty text-foreground/85">
-            One CV, several cuts. Max is the full story, Mini is the two-page
-            compact version, and the role minis each fit a single page.
+            Max is the full story, and Mini is the two-page compact version.
           </p>
         </header>
 

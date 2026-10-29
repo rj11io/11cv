@@ -2,12 +2,7 @@
 // both read from here, so adding a variant means: create its module folder
 // and list it below.
 
-import type { MiniRole } from "./_mini/types"
-import { role as datavisEngMini } from "./datavis-eng-mini/content"
-import { role as fePlatformEngMini } from "./fe-platform-eng-mini/content"
-import { role as foundingProductEngMini } from "./founding-product-eng-mini/content"
 import { role as mini } from "./mini/content"
-import { role as productEngMini } from "./product-eng-mini/content"
 
 export type Variant = {
   /** Route segment under /v1. */
@@ -20,13 +15,6 @@ export type Variant = {
   description: string
 }
 
-export const MINI_ROLES: MiniRole[] = [
-  productEngMini,
-  fePlatformEngMini,
-  datavisEngMini,
-  foundingProductEngMini,
-]
-
 export const VARIANTS: Variant[] = [
   mini,
   {
@@ -35,10 +23,5 @@ export const VARIANTS: Variant[] = [
     title: "AI Product Engineer",
     description: "The full CV: every role, project, and detail.",
   },
-  ...MINI_ROLES.map(({ slug, name, title, description }) => ({
-    slug,
-    name,
-    title,
-    description,
-  })),
+
 ]
