@@ -70,6 +70,8 @@ export const role: MiniRole = {
       period: "Mar 2025 - Present",
       url: "https://www.rj11.io",
       highlights: [
+        "AI consulting and advisory for companies to optimise token spend, measure usage, and benchmark results",
+        "AI coaching and mentorship for investors and founders to stay informed and make better market decisions",
         "Hands-on AI product engineering for multiple early-stage startups, building projects from the ground up",
         "AI data extraction from PDFs, AI SEO analytics, a GenAI dermatopathology portal, AI chats and custom GPT experiences",
         "Cybersecurity dashboards, proprietary data explorers, and AI agent harnesses, skills, and automations",

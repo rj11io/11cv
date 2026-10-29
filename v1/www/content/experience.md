@@ -6,6 +6,9 @@ period: Mar 2025 - Present
 location: B2B · Remote
 url: https://www.rj11.io
 
+- AI consulting and advisory for companies to optimise token spend, measure usage, and benchmark results
+- AI coaching and mentorship for investors and founders to stay informed and make better market decisions
+
 Hands-on AI product engineering for multiple early-stage startups, building projects from the ground up:
 
 - AI Data Extraction from PDFs
