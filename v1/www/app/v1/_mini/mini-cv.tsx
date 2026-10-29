@@ -14,7 +14,7 @@ import { Inline } from "@/lib/cv/markdown"
 import { bareUrl, cn } from "@/lib/utils"
 
 import styles from "./mini.module.css"
-import type { MiniEntry, MiniProject, MiniRole, MiniSkillGroup } from "./types"
+import type { MiniEntry, MiniRole, MiniSkillGroup } from "./types"
 
 const SERIF = "font-[family-name:var(--font-serif-cv)]"
 const LINK =
@@ -233,55 +233,6 @@ function BulletList({
   )
 }
 
-function ProjectList({
-  projects,
-  dense,
-}: {
-  projects: MiniProject[]
-  dense: boolean
-}) {
-  return (
-    <ul className={cn("space-y-1.5", dense ? "print:space-y-0.5" : "print:space-y-1")}>
-      {projects.map((project) => (
-        <li
-          key={project.name}
-          className={cn(
-            "break-inside-avoid text-[13px]/relaxed text-foreground/80",
-            body(dense)
-          )}
-        >
-          <span
-            className={cn(
-              SERIF,
-              "text-sm font-medium text-foreground",
-              dense && "print:text-[11.5px]"
-            )}
-          >
-            {project.name}
-          </span>
-          <span
-            className={cn(
-              "ml-2 font-mono text-[11px] text-muted-foreground",
-              dense && "print:text-[9px]"
-            )}
-          >
-            <a
-              href={project.url}
-              className={LINK}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {bareUrl(project.url)}
-            </a>
-          </span>
-          <Dot />
-          {project.blurb}
-        </li>
-      ))}
-    </ul>
-  )
-}
-
 export function MiniCV({ role }: { role: MiniRole }) {
   const { profile, education } = loadCV()
   const contacts = contactList(profile.meta)
@@ -387,12 +338,6 @@ export function MiniCV({ role }: { role: MiniRole }) {
           {role.skills.length > 0 && (
             <Section label="Skills" dense={dense}>
               <SkillGroups groups={role.skills} dense={dense} />
-            </Section>
-          )}
-
-          {role.projects && role.projects.length > 0 && (
-            <Section label="Projects" dense={dense}>
-              <ProjectList projects={role.projects} dense={dense} />
             </Section>
           )}
 

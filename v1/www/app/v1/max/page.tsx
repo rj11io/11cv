@@ -184,7 +184,7 @@ function SkillGroups({ groups }: { groups: SkillGroup[] }) {
 }
 
 export default function Page() {
-  const { profile, experience, education, projects, skills } = loadCV()
+  const { profile, experience, education, skills } = loadCV()
   const contacts = contactList(profile.meta)
 
   return (
@@ -272,16 +272,6 @@ export default function Page() {
           {skills.length > 0 && (
             <Section label="Skills">
               <SkillGroups groups={skills} />
-            </Section>
-          )}
-
-          {projects.length > 0 && (
-            <Section label="Projects">
-              <div className="space-y-9 print:space-y-6">
-                {projects.map((entry, i) => (
-                  <EntryItem key={i} entry={entry} />
-                ))}
-              </div>
             </Section>
           )}
 
